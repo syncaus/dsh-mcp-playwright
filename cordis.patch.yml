@@ -1,0 +1,14 @@
+# Playwright MCP：网页 E2E 测试 / 截图 / 断言
+# 用 node 直连 cli.js，避免 Windows 下 .cmd 需要 shell
+- insert:
+    - id: mcp-playwright
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: playwright
+        transport: stdio
+        command: 'C:/nvm4w/nodejs/node.exe'
+        args:
+          - 'C:/Users/zhaoh/AppData/Roaming/npm/node_modules/@playwright/mcp/cli.js'
+          - '--headless'
+          - '--isolated'
+        toolCallTimeoutMs: 120000
