@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Playwright MCP server wired into the DSH profile as a bundle: end-to-end testing, screenshots, and assertions for web UI work.",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/syncaus/dsh-mcp-playwright.git"
