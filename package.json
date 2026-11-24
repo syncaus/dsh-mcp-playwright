@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syncaus/dsh-mcp-playwright.git"
+  },
   "files": ["cordis.patch.yml"],
   "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
 }
