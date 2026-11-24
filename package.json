@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "description": "Playwright MCP server wired into the DSH profile as a bundle: end-to-end testing, screenshots, and assertions for web UI work.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/syncaus/dsh-mcp-playwright.git"
